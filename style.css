@@ -225,7 +225,7 @@ button:active {
     padding-bottom: 80px;
 }
 
-.about .row, .work .row, .skill .row, .contact .row {
+.about .row, .work .row, .education .row, .skill .row, .contact .row {
     text-align: center;
     padding: 3rem 0;
 }
@@ -242,11 +242,11 @@ button:active {
 
 .card img {
     width: 250px;
-    height: 300px;
+    height: 270px;
     padding: 10px 10px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 30%;
+    border-radius: 50%;
 }
 
 .card i {
@@ -451,8 +451,8 @@ button:active {
     padding-top: 30px;
 }
 
-.work-title img {
-    padding-right: 5px;
+.work-title i {
+    padding-right: 10px;
 }
 
 .container .work .work {
