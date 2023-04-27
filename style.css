@@ -15,12 +15,10 @@ body {
 }
 
 .intro {
-    width: 100%;
     height: 100vh;
-    background-image: url(images/background.avif);
+    background-image: url(images/background.jpg);
     background-size: cover;
-    background-position: center;
-   
+    background-repeat: no-repeat;
 }
 
 .intro-container {
@@ -296,9 +294,10 @@ button:active {
 /*--------------WORK--------------*/
 
 .work-bg {
-    background-image: url("images/work-bg.avif");
+    background-image: url("images/work-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 .pk-timeline {
@@ -495,9 +494,9 @@ button:active {
 /*--------------SKILL--------------*/
 
 .skill-bg {
-    background-image: url("images/skill-bg.avif");
+    background-image: url("images/skill-bg.jpg");
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .skill .row, .work .row {
