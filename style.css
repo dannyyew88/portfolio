@@ -494,7 +494,7 @@ button:active {
 /*--------------SKILL--------------*/
 
 .skill-bg {
-    background-image: url("images/skill-bg.jpg");
+    background-image: url("images/skill-bg.avif");
     background-size: cover;
     background-repeat: no-repeat;
 }
