@@ -238,7 +238,7 @@ button:active {
 
 .about .row, .work .row, .education .row, .skill .row, .contact .row {
     text-align: center;
-    padding: 3rem 0;
+    padding: 2rem 0;
 }
 
 .about .row h1, .work .row h1, .education .row h1, .skill .row h1, .contact .row h1 {
@@ -263,7 +263,7 @@ button:active {
 
 .card img {
     width: 300px;
-    height: 400px;
+    height: 350px;
     border-radius: 30px;
 }
 
@@ -426,6 +426,10 @@ button:active {
     border-radius: .25rem
 }
 
+#tapps {
+    margin-top: 7px;
+}
+
 @media (min-width:768px) {
     .pk-tl-avatar {
         top: calc(50% - 40px);
@@ -494,9 +498,10 @@ button:active {
 /*--------------SKILL--------------*/
 
 .skill-bg {
-    background-image: url("images/skill-bg.avif");
+    /* background-image: url("images/skills-bg.jpeg"); */
     background-size: cover;
     background-repeat: no-repeat;
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
 }
 
 .skill .row, .work .row {
@@ -512,8 +517,8 @@ button:active {
 #myBtn {
     display: none;
     position: fixed;
-    bottom: 20px;
-    right: 30px;
+    bottom: 70px;
+    right: 15px;
     z-index: 99;
     font-size: 18px;
     border: none;
@@ -535,7 +540,7 @@ button:active {
 
 .footer .row p {
     text-align: center;
-    font-size: 20px;
+    /* font-size: 20px; */
     padding-top: 25px;
 }
 
@@ -718,3 +723,9 @@ button:active {
       color: #fff;
     }
   }
+
+  @media (max-width:400px) {
+    .intro-container p {
+        font-size: 50px
+    }
+}
