@@ -16,15 +16,6 @@ function topFunction() {
     document.documentElement.scrollTop = 0;
 }
 
-function toggleNavbar() {
-    var navbar = document.querySelector('.navbar-collapse');
-    if (navbar.classList.contains('show')) {
-        navbar.classList.remove('show');
-    } else {
-        navbar.classList.add('show');
-    }
-}
-
 function collapseNavbar() {
     var navbar = document.querySelector('.navbar-collapse');
     navbar.classList.remove('show');
